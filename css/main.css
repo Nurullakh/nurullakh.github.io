@@ -1,0 +1,521 @@
+body {
+	color: #fff;
+	font-size: 16px;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+ul, li {
+	padding: 0px;
+	margin: 0px;
+}
+
+
+a, a:hover, a:active, a:focus,
+button, input, button:hover, button:active, button:focus {
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	outline: none;
+}
+
+h1, h2, h3, h4, p {
+	margin: 0;
+}
+
+
+header {
+	background: #87509c;
+}
+
+
+
+.header-padding {
+	padding-top: 60px
+}
+
+.nav-list li {
+	list-style: none;
+	padding-top: 13px;
+}
+
+.nav-list .nav-list-a {
+	font-weight: 400;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px 17px;
+	color: #fff;
+
+}
+
+.nav-list .nav-list-a:hover {
+	background: #643a79;
+	border-radius: 4px;
+}
+
+
+.hamburger {
+	display: none;
+}
+
+.active {
+	display: none;
+	text-align: center;
+}
+
+h1 {
+	margin: 140px 0 60px 0;
+	font-size: 43px;
+	font-weight: 700;
+}
+
+.button {
+	display: block;
+	background: #eb7d4b;
+	margin: 0 auto;
+	margin-bottom: 145px;
+	padding: 24px 0;
+	width: 290px;
+	border: 2px solid #eb7d4b;
+	border-radius: 6px;
+	box-shadow: 0 4px 0 #c86a40;
+	font-size: 18px;
+	font-weight: 600;
+	color: #fff;
+}
+
+
+.service {
+	background: #17c2a4;
+}
+
+.title {
+	padding-top: 120px;
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.title:after {
+	content: '';
+	background: #14a58c;
+	display: block;
+	margin: 18px auto;
+	width: 87px;
+	height: 4px;
+}
+
+.text {
+	font-weight: 400;
+	font-size: 18px;
+	margin-bottom: 81px;
+}
+
+.service-img {
+	height: 135px;
+}
+
+.service-icon-title {
+	margin: 60px 0 30px 0;
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.service-icon-text {
+	font-size: 16px;
+	font-weight: 300;
+	margin-bottom: 130px;
+}
+
+.team {
+	background: #e7f1f8;
+	color: #3c4761;
+}
+
+.team-title:after {
+	background: #bdd1df;
+}
+
+.time-avatar {
+	background: #878787;
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+
+.team-icon-title {
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.time-job {
+	color: #30bae7;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 12px 0 25px 0;
+}
+
+.team-icon-text {
+	font-size: 16px;
+	font-weight: 300;
+	margin-bottom: 35px;
+}
+
+.time-account {
+	justify-content: center;
+}
+
+.time-account a {
+	margin-left: 10px;
+	margin-bottom: 125px;
+}
+
+.time-account-fb {background: url(../img/iconfb.png) no-repeat; height: 32px; width: 32px;}
+.time-account-twiter {background: url(../img/icontwiter.png) no-repeat; height: 32px; width: 32px;}
+.time-account-linkidin {background: url(../img/iconin.png) no-repeat; height: 32px; width: 32px;}
+.time-account-email {background: url(../img/iconemail.png) no-repeat; height: 32px; width: 32px;} 
+
+
+.skills {
+	color: #000;
+}
+
+.skills-title:after {
+	background: #dfe8ed;
+}
+
+.skills-icon-title {
+	color: #3c4761;
+	font-weight: 700;
+	font-size: 24px;
+	text-transform: uppercase;
+	margin: 30px 0 123px 0;
+}
+
+.portfolio {
+	background: #ffdd99; 
+	color: #393939;
+}
+
+.portfolio-title:after {
+	background: #ebc985;
+}
+
+.portfolio-text {
+	margin-bottom: 0;
+}
+
+.portfolio-list {
+	justify-content: center;
+}
+
+.portfolio-list li {
+	list-style: none;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 400;
+	width: 84px;
+	height: 39px;
+	background: #ebc985;
+	margin: 47px 10px 62px 0;
+	padding: 6px;
+	border-radius: 4px;
+}
+
+.portfolio-list li:hover {
+	background: #fff;
+}
+
+.portfolio-info {
+	margin: 32px 0 64px 0;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.portfolio-button {
+	background: #17c2a4;
+	box-shadow: 0 4px 0 #14a58c;
+	border: 2px solid #17c2a4;
+
+}
+
+.review {
+	background: #d74680;
+}
+
+.review-title:after {
+	background: #b73c6d
+}
+
+.review-avatar {
+	width: 96px;
+	height: 96px;
+	background: #787878;
+	border-radius: 100%;
+	margin-bottom: 215px;
+}
+
+.review-about {
+	margin-left: 50px;
+}
+
+.review-about-text {
+	width: 362px;
+	font-size: 21px;
+	font-weight: 400;
+}
+
+.review-about-name {
+	font-size: 24px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 30px 0 7px 0;
+}
+
+.review-about-job {
+	font-size: 18px;
+	font-weight: 400;
+	color: #fac996;
+}
+
+.form {
+	background: #3c5499;
+}
+
+.form-title:after {
+	background: #273a71;
+}
+
+.form-input {
+	justify-content: center;
+}
+
+.form-input-info {
+	background: #273a71;
+	width: 416px;
+	height: 56px;
+	border: 1px solid #273a71;
+	border-radius: 4px;
+	margin: 0 15px;
+	padding-left: 25px;
+	text-transform: none;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+
+
+.form-input-message {
+	background: #273a71;
+	width: 860px;
+	height: 200px;
+	resize: none;
+	border: 1px solid #273a71;
+	border-radius: 4px;
+	margin: 25px 0 60px 0;
+	padding: 25px 0 0 25px;
+	text-transform: none;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.form-input-info::placeholder, .form-input-message::placeholder {
+	color: #fff;
+}
+
+.form-button {
+	background: #30bae7;
+	box-shadow: 0 4px 0 #299ec5;
+	border: 2px solid #30bae7;
+}
+
+footer {
+	background: #344b8e;
+}
+
+.footer-list {
+	justify-content: space-between;
+	padding: 40px 0;
+}
+
+.footer-list li {
+	list-style: none;
+}
+
+.footer-list a {
+	font-weight: 600;
+	font-size: 24px;
+	text-transform: none;
+	text-decoration: none;
+	padding: 0 25px;
+	color: #fff;
+}
+
+.footer-list a:hover {
+	color: #30bae7
+}
+
+
+
+@media (max-width: 1200px) {
+	.form-input-info, .form-input-info {
+		width: 403px;
+	}
+	.form-input-message {
+		width: 90%;
+	}
+	.portfolio-img {
+		width: 100%;
+	}
+	.review-about-text {
+		width: 290px;
+		height: 103px;
+		font-size: 20px;
+	}
+	.footer-list a {
+		font-size: 16px;
+		padding: 0 18px;
+	}
+}
+@media (max-width: 991px) {
+	.service-icon-title {
+		font-size: 21px;
+	}
+	.time-avatar {
+		width: 140px;
+		height: 140px;
+	}
+	.team-icon-title {
+		font-size: 19px;
+	} 
+	.team-icon-text {
+		font-size: 15px;
+	}
+	.time-account a {
+		margin-left: 5px;
+	}
+	.time-account a {
+		font-size: 20px;
+	}
+	.skills-icon-title {
+		font-size: 20px;
+	}
+	.review-avatar {
+		display: none;
+	}
+	.review-about-job {
+		margin-bottom: 40px;
+	}
+	.form-input-info {
+		width: 296px;
+	}
+	.form-text {
+		font-size: 14px;
+	}
+}
+@media (max-width: 767px) {
+	.header-logo {
+		text-align: center;
+		margin-bottom: 30px;
+
+	}
+	.nav-list {
+		justify-content: center;
+	}
+	
+	h1 {
+		font-size: 24px;
+	}
+	.title {
+		font-size: 34px;
+	}
+	.text {
+		font-size: 14px;
+	}
+	.team-icon-text {
+		width: 305px;
+		margin: 0 auto;
+		font-size: 14px;
+		margin-bottom: 20px;
+	}
+	.review-avatar {
+		display: block;
+		margin-left: 50px;
+	}
+	.form-input-info {
+		width: 213px;
+	}
+	.footer-list a {
+		font-size: 10px;
+	}
+}
+
+@media (max-width: 575px) {
+	.header-nav {
+		display: none;
+	}
+	.hamburger {
+		display: block;
+	}
+	.hamburger-onactive {
+		display: block;
+		margin: 0 auto; 
+		width: 26px;
+		height: 12px;
+		transform: translateY(-50%);
+
+
+	}
+	.hamburger-onactive span {
+		display: block;
+		height: 2px;
+		width: 100%;
+		margin-bottom: 2px;
+		transition: 0.5s all;
+		background-color: #fff;
+
+	}
+	.hamburger-active span {
+		margin-bottom: -2px;
+	}
+	.hamburger-active span:nth-child(1) {transform: translateY(3px) rotate(45deg);}
+	.hamburger-active span:nth-child(2) {display: none;}
+	.hamburger-active span:nth-child(3) {transform: translateY(3px) rotate(-45deg);}
+	.active  {
+		margin: 0 auto;
+		width: 60%;
+	}
+	.active a {display:block;}
+	.button  {
+		width: 240px;
+	}
+	.review {
+		display: none;
+	}
+	.form-input {
+		flex-direction: column;
+	}
+	.form-input-info:nth-child(2) {
+		margin-top: 25px;
+	}
+	.form-input-info {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.form-button {
+		margin-bottom: 40px;
+	}
+	footer {
+		display: none;
+	}
+	.team-icon-text {
+		width: 289px;
+	}
+}
